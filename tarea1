@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio de Introducción a HTML en OpenBootcamp</title>
+</head>
+<body>
+<!-- Este es mi primer comentario de dos líneas -->
+<!-- Aprendiendo a documentar mi código con OpenBootcamp -->
+
+<ul>
+    <li><a href="https://www.youtube.com/watch?v=STDG00mc9zk">Juan Luis Guerra - Bachata Rosa (Live)</a></li>
+    <li><a href="https://www.youtube.com/watch?v=IsUQVaUnOiA">Juan Luis Guerra - A Pedir Su Mano (Live)</a></li>
+    <li><a href="https://www.youtube.com/watch?v=rA0yoR6d8xw">Jerry Rivera - No Hieras Mi Vida (Official Video)</a></li>
+
+
+
+
+</ul>
+    
+</body>
+</html>
