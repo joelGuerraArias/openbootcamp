@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>"Aprendiendo a utilizar imágenes"</h1>
+    <img src="https://media.contentapi.ea.com/content/dam/eacom/need-for-speed-hot-pursuit-remastered/images/2020/09/nfs-youtube-cover-image-16x9-l.jpg.adapt.crop16x9.320w.jpg" alt="imagen juego">
+    
+<h1>"Aprendiendo a utilizar los vídeos"</h1>
+<video src="https://noticias.b-cdn.net/openbootcamp/This-is-Lexus-Una-Experiencia-nica-YouTube.mp4" muted autoplay loop controls></video>
+
+
+<h1>"Aprendiendo a utilizar los audios"</h1>
+<audio src="https://noticias.b-cdn.net/openbootcamp/1apalma.mp3" controls></audio>
+    
+</body>
+</html>
