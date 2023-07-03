@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <style>
+        #titulo {
+            color: red;
+            font-size: 50px;
+            text-align: center; }
+      
+          /* Estilos para el primer elemento de cada lista */
+          ul li:first-child,
+          ol li:first-child {
+            color: red;
+          }
+
+
+    </style>
+
+    <h1 id="titulo" class="encabezado">Lista de Compras</h1>
+
+    <ul>
+        <li id="elemento1">
+            manzanas
+        </li>
+        <li id="elemento2">
+            peras
+        </li>
+        <li id="elemento3">
+            naranjas
+        </li>
+        <li id="elemento4">
+            uvas
+        </li>
+        <li id="elemento5">
+            mangos
+        </li>
+  </ul>
+        <ol>
+            <li id="elemento1"> 
+                Supermercano Bravo
+                 </li>
+
+            <li id="elemento2">
+                Supermercado La torre
+            </li>
+
+            <li id="elemento3">
+                Supermercado La papa
+            </li>
+
+            <li id="elemento4">
+                Supermercado Economico
+            </li>
+
+            <li id="elemento5">
+                Supermercado Maximo
+
+            </li>
+
+      </ol>
+
+
+ 
+</body>
+
+</html>
