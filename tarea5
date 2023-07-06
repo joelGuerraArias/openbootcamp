@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>galeria imagenes</title>
+    <link rel="stylesheet" href="/car.css">
+</head>
+
+<body>
+    <style>
+        
+.galeria{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 100vw;
+    max-width: 1200px;
+    padding: 0 20px;
+    gap: 20px;
+}
+.fordgallery{
+    margin: 35px 0 0 0;
+    width: 300px;
+    border-radius: 15px;
+    
+
+
+}
+
+.fordgallery:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+    cursor: pointer;
+}
+    </style>
+
+
+    <div class="galeria">
+
+        <img src="https://www.carscoops.com/wp-content/uploads/2019/08/b85811c3-2017-ford-gt.jpg"
+            alt="ford" class="fordgallery">
+        <img src="https://hdqwalls.com/wallpapers/ford-gt-2017-2-img.jpg"
+            alt="ford" class="fordgallery">
+        <img src="https://www.sportscarmarket.com/wp-content/uploads/2016/12/2017-ford-gt-main.jpg"
+            alt="ford" class="fordgallery">
+        <img src="https://cimg2.ibsrv.net/ibimg/hgm/1920x1080-1/100/588/2017-ford-gt_100588850.jpg"
+            alt="ford" class="fordgallery">
+        <img src="http://images.hgmsites.net/hug/ford-gt_100593533_h.jpg"
+            alt="ford" class="fordgallery">
+        <img src="http://st.automobilemag.com/uploads/sites/10/2016/08/FordGT-SilverStripes_06_HR.jpg"
+            alt="ford" class="fordgallery">
+
+
+
+    </div>
+
+</body>
+
+</html>
