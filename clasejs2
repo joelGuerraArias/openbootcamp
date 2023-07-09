@@ -1,0 +1,14 @@
+let miNombre= "Joel";
+let miEdad= 25;
+let eresDesarrollador= true;
+let fechaNacimiento= new Date(1998, 12, 12);
+const libro ={
+    titulo: "Lo tres mosqueteros",
+    autor: "Alejandro Dumas",
+    paginas: 600,
+    publicado: false,
+    anoPublicacion: 1998
+
+
+
+}
