@@ -1,0 +1,35 @@
+// Declaración de variables
+let nombre = "Joel";
+let apellido = "Arias";
+
+// Concatenación de nombre y apellido
+let estudiante = nombre.concat(" ", apellido);
+console.log(estudiante);
+
+// Convertir a mayúsculas
+let estudianteMayus = estudiante.toUpperCase();
+console.log(estudianteMayus);
+
+// Convertir a minúsculas
+let estudianteMinus = estudiante.toLowerCase();
+console.log(estudianteMinus);
+
+// Contar caracteres
+let contando = estudiante.length;
+console.log(contando);
+
+// Obtener el primer carácter
+let comienzaPor = estudiante.charAt(0);
+console.log(comienzaPor);
+
+// Obtener el último carácter
+let terminaPor = estudiante.charAt(contando - 1);
+console.log(terminaPor);
+
+// Eliminar espacios en blanco al inicio y al final
+let eliminar = estudiante.trim();
+console.log(eliminar);
+
+// Verificar si la cadena incluye "Joel"
+let incluido = estudiante.includes("Joel");
+console.log(incluido);
