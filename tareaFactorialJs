@@ -1,0 +1,38 @@
+// factorial-for.js
+let number1 = 10;
+let factorial1 = 1;
+
+for (let i = 1; i <= number1; i++) {
+  factorial1 *= i;
+}
+
+console.log(`El factorial de ${number1} es: ${factorial1}`);
+
+// factorial-while.js
+let number2 = 10;
+let factorial2 = 1;
+let j = 1;
+
+while (j <= number2) {
+  factorial2 *= j;
+  j++;
+}
+
+console.log(`El factorial de ${number2} es: ${factorial2}`);
+
+// factorial-break.js
+let number3 = 10;
+let factorial3 = 1;
+let k = 1;
+
+while (true) {
+  factorial3 *= k;
+
+  if (k === number3) {
+    break;
+  }
+
+  k++;
+}
+
+console.log(`El factorial de ${number3} es: ${factorial3}`);
