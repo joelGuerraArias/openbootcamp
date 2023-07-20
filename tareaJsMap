@@ -1,0 +1,38 @@
+// Variable con la lista de la compra
+let listaCompra = ["Manzanas", "Leche", "Pan", "Huevos", "Arroz"];
+
+// Añadir "Aceite de Girasol" a la lista de la compra
+listaCompra.push("Aceite de Girasol");
+
+// Eliminar "Aceite de Girasol" de la lista de la compra
+listaCompra.splice(listaCompra.indexOf("Aceite de Girasol"), 1);
+
+// Lista de tus 3 películas favoritas
+let peliculasFavoritas = [
+  { titulo: "El Padrino", director: "Francis Ford Coppola", fecha: "1972" },
+  { titulo: "Pulp Fiction", director: "Quentin Tarantino", fecha: "1994" },
+  { titulo: "El señor de los anillos: El retorno del rey", director: "Peter Jackson", fecha: "2003" }
+];
+
+// Filtrar películas posteriores al 1 de enero de 2010
+let peliculasRecientes = peliculasFavoritas.filter(pelicula => parseInt(pelicula.fecha) >= 2010);
+
+// Obtener una lista de directores de las películas originales
+let directores = peliculasFavoritas.map(pelicula => pelicula.director);
+
+// Obtener una lista de títulos de las películas originales
+let titulos = peliculasFavoritas.map(pelicula => pelicula.titulo);
+
+// Concatenar la lista de directores y la lista de títulos
+let concatenacion = directores.concat(titulos);
+
+// Concatenar la lista de directores y la lista de títulos utilizando el spread operator
+let concatenacionPropagacion = [...directores, ...titulos];
+
+// Imprimir los resultados
+console.log("Lista de la compra:", listaCompra);
+console.log("Películas recientes:", peliculasRecientes);
+console.log("Directores:", directores);
+console.log("Títulos:", titulos);
+console.log("Concatenación (utilizando 'concat'):", concatenacion);
+console.log("Concatenación (utilizando propagación):", concatenacionPropagacion);
