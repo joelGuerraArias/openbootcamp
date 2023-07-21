@@ -1,0 +1,10 @@
+const newSet= new Set ([ "Joel", "Belgica","Max", "Emil" ])
+console.log(newSet)
+
+newSet.add("Felix")
+
+console.log(newSet)
+newSet.add("Emil")
+console.log(newSet)
+
+newSet.add("Javascript")
