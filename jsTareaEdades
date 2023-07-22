@@ -1,0 +1,47 @@
+const misDatos = {
+    nombre: 'Juan',
+    apellido: 'Perez',
+    edad: 30,
+    altura: 1.70,
+    peso: 80,
+    desarrollador: true,
+    ingeniero: false,
+}
+
+
+let miEdad = misDatos.edad
+console.log(miEdad)
+
+const listaAmigoas = [
+
+    {
+        nombre: 'Joel',
+        apellido: 'Arias',
+        edad: 34,
+        altura: 1.70,
+        peso: 80,
+        desarrollador: true,
+        ingeniero: false,
+    },
+    {  nombre: 'Maria',
+        apellido: 'Perez',
+        edad: 30,
+        altura: 1.70,
+        peso: 60,
+        desarrollador: true,
+        ingeniero: false,
+    },
+    {  nombre: 'Manuel',
+        apellido: 'Arias',
+        edad: 38,
+        altura: 1.50,
+        peso: 65,
+        desarrollador: true,
+        ingeniero: false,
+    },
+        
+
+]
+
+const listaAmigoasOrdenadaPorEdad = listaAmigoas.slice().sort((a, b) => b.edad - a.edad);
+console.log(listaAmigoasOrdenadaPorEdad)
