@@ -1,0 +1,18 @@
+let fechaHoy = new Date();
+console.log(fechaHoy);
+
+let miFechaNacimiento = new Date("December 12, 1990");
+console.log(miFechaNacimiento.getDate()); // Obtenemos el día del mes
+console.log(miFechaNacimiento);
+
+let compararFechas = fechaHoy > miFechaNacimiento;
+console.log(compararFechas);
+
+let miDiaNacimiento = miFechaNacimiento.getDate(); // Obtenemos el día del mes
+console.log(miDiaNacimiento);
+
+let miMesNacimiento = miFechaNacimiento.getMonth()+1; // Obtenemos el mes (0 para Enero, 1 para Febrero, etc.)
+console.log(miMesNacimiento);
+const anoNacimiento = 1990; // Reemplaza 1990 con el año de nacimiento deseado (con 4 dígitos)
+let miAnoNacimiento = miFechaNacimiento.getFullYear(); // Obtenemos el año
+console.log(miAnoNacimiento);
