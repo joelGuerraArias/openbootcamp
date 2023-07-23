@@ -1,0 +1,26 @@
+function siempreTrue() {
+  return true;
+  console.log("Hola");
+  document.write("Hola");
+}
+
+
+
+function* generarID() {
+  let id = 1;
+  while (true) {
+    yield id;
+    id++;
+  }
+}   
+console.log(generarID().next().value);
+document.write(generarID().next().value);
+
+
+async function getNombre() {
+  await new Promise((resolve) => setTimeout(resolve, 1000));
+    return "Hola soy una promesa";
+    console.log("Hola soy una promesa");
+    document.write("Hola soy una promesa");
+
+}
