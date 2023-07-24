@@ -1,0 +1,31 @@
+const fs = require('fs');
+const winston = require('winston');
+
+// Configuración del logger de Winston
+const logger = winston.createLogger({
+  level: 'error', // Nivel de logs a registrar, en este caso, solo errores
+  format: winston.format.combine(
+    winston.format.timestamp(),
+    winston.format.json()
+  ),
+  transports: [
+    new winston.transports.File({ filename: 'error.log', level: 'error' })
+  ]
+});
+
+// Función que lanza un error con un mensaje personalizado
+function throwError(message) {
+  throw new Error(message);
+}
+
+// Función que maneja y registra el error en el archivo error.log
+function handleError() {
+  try {
+    throwError("Este es un mensaje de error personalizado.");
+  } catch (error) {
+    logger.error(error.message);
+  }
+}
+
+// Ejecutar la función para probar el registro del error
+handleError();
